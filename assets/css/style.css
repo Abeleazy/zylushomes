@@ -44,7 +44,7 @@
     33- About
     34- Banners
     35- Careers
-    36- Services
+    36- -items
 
 ----------------------------*/
 /*-------------------------- 
@@ -8208,6 +8208,10 @@ textarea.form-control {
     font-size: 25px;
     margin-bottom: 10px;
   }
+
+  .item .service__title {
+    font-size: 25px;
+  }
 }
 
 /* Mobile Phones and tablets */
@@ -8229,4 +8233,79 @@ textarea.form-control {
   .service-item .service__icon i {
     font-size: 45px;
   }
+  
+  .item {
+    padding: 15px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .item .service__title {
+    font-size: 18px;
+  }
+}
+
+
+.item {
+  position: relative;
+}
+
+.item .item-content:after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  background: var(--theme-yellow);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  margin: 5px auto 0;
+  transition: width 0.5s ease;
+}
+
+.item:hover .item-content:after {
+  width: 90%;
+}
+
+.heading-layout2 p.heading__desc a {
+  color: #f9f9f9;
+  text-decoration: underline;
+  transition: 0.5s ease;
+}
+
+.heading-layout2 p.heading__desc a:hover {
+  text-decoration: none;
+}
+
+.btn__white.on-banner:before {
+  background-color: #ffffff;
+}
+
+.btn__white.on-banner {
+  background-color: #1b1a1a;
+  color: #ffffff;
+}
+
+.btn__white.on-banner:hover {
+  background-color: #ffffff;
+  color: #1b1a1a;
+}
+
+.btn__white.on-banner:active,
+.btn__white.on-banner:focus {
+  background-color: #ffffff;
+  color: #1b1a1a;
+}
+
+#WAButton {
+  bottom: 80px;
+}
+
+.floating-wpp-button svg {
+  width: 72px;
+  height: 72px;
+  background-color: #888888 !important;
+}
+
+.contact__info-list li i {
+  color: var(--theme-yellow);
 }
