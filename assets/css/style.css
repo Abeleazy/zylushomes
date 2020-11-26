@@ -8244,7 +8244,8 @@ textarea.form-control {
   }
 }
 
-
+/* INDEX 
+------------------------ */
 .item {
   position: relative;
 }
@@ -8266,7 +8267,7 @@ textarea.form-control {
   left: 0;
   right: 0;
   bottom: -1px;
-  margin: 0px auto 0;
+  margin: 0 auto;
   transition: width 0.5s ease;
 }
 
@@ -8327,11 +8328,34 @@ textarea.form-control {
   border-radius: 100%;
 }
 
+.footer .social__icons li a.facebook:hover  {
+  color: rgb(59, 89, 152);
+}
+.footer .social__icons li a.instagram:hover {
+  color: rgb(228, 64, 95);
+}
+.footer .social__icons li a.twitter:hover {
+  color: rgb(0, 172, 238);
+}
+.footer .social__icons li a.youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+
+/* ABOUT
+------------------------ */
 .modal-footer .modal-service-btn {
   background-color: rgb(255, 204, 41);
   color: #ffffff;
 }
 
+.modal-footer .modal-service-btn a {
+  color: #ffffff;
+}
+
+
+/* MEDIA QUERIES
+------------------------ */
 @media screen and (max-width: 992px) {
   .testimonial-img {
     display: none;
