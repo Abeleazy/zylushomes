@@ -236,10 +236,11 @@ $(function () {
             $('#WAButton').floatingWhatsApp({
             phone: '+2348052858866', //WhatsApp Business phone number
             headerTitle: 'Chat with us on WhatsApp!', //Popup Title
-            popupMessage: 'Hello, how can we help you?', //Popup Message
+            popupMessage: 'Hello! How can we help you?', //Popup Message
             showPopup: true, //Enables popup display
             // buttonImage: '<img src="whatsapp.svg" />',
             position: "right" //Position: left | right
+
         });
     });
 });
