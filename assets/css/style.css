@@ -8249,16 +8249,24 @@ textarea.form-control {
   position: relative;
 }
 
+.item .item-content h4.service__title {
+  font-size: 24px;
+}
+
+.item .item-content > i {
+  font-size: 26px;
+}
+
 .item .item-content:after {
   content: '';
-  width: 50px;
+  width: 70px;
   height: 2px;
   background: var(--theme-yellow);
   position: absolute;
   left: 0;
   right: 0;
   bottom: -1px;
-  margin: 5px auto 0;
+  margin: 0px auto 0;
   transition: width 0.5s ease;
 }
 
@@ -8303,7 +8311,7 @@ textarea.form-control {
 .floating-wpp-button svg {
   width: 60px;
   height: 60px;
-  background-color: 'rgb(34,34,34)'
+  background-color: rgb(34, 34, 34);
 }
 
 .contact__info-list li i {
@@ -8317,6 +8325,11 @@ textarea.form-control {
   width: 100px;
   height: 100px;
   border-radius: 100%;
+}
+
+.modal-footer .modal-service-btn {
+  background-color: rgb(255, 204, 41);
+  color: #ffffff;
 }
 
 @media screen and (max-width: 992px) {
