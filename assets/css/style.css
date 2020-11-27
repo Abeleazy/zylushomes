@@ -5662,7 +5662,8 @@ textarea.form-control {
 }
 
 .member .social__icons li a:hover {
-  color: #1b1a1a;
+  /* color: #1b1a1a; */
+  color: var(--theme-yellow);
 }
 
 .member:hover .member__hover {
@@ -7597,6 +7598,7 @@ textarea.form-control {
   flex: 0 0 100%;
   max-width: 100%;
   padding-left: 30px;
+  padding-right: 30px;
   position: relative;
 }
 
@@ -8353,11 +8355,37 @@ textarea.form-control {
   color: #ffffff;
 }
 
+.about .feature-item .feature__content .feature__title, 
+.about.features-layout1 .why-we-stand-out .heading__subtitle {
+  width: fit-content;
+}
+
 
 /* MEDIA QUERIES
 ------------------------ */
+@media (max-width: 1200px) {
+  .about-layout2 .imgs-block {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .testimonial-img {
     display: none;
+  }
+
+  .about .feature-item .feature__content {
+    padding: 20px 20px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about .feature-item .feature__content {
+    padding: 20px 20px 0;
+  }
+
+  .about .feature-item .feature__content.no-padding-top {
+    padding-top: 0;
   }
 }

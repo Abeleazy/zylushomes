@@ -5,13 +5,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Promina - Construction And Building Template">
-  <link href="assets/images/favicon/favicon.png" rel="icon">
-  <title>Promina - Construction And Building Template</title>
+  <meta name="description" content="Zylus Homes | Real Estate Investment Company in Lagos, Nigeria">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link href="assets/images/favicon/favicon.ico" rel="icon">
+  <title>Zylus Homes | Real Estate Investment Company in Lagos, Nigeria</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700%7cRoboto:400,500,700&display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Floating WhatsApp css-->
+  <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
 </head>
 
 <body>
@@ -27,8 +32,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+            <img src="assets/images/logo/ZY-white.png" class="logo-light" alt="logo">
+            <img src="assets/images/logo/ZY-dark.png" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -36,17 +41,17 @@
           <div class="collapse navbar-collapse" id="mainNavigation">
             <ul class="navbar-nav">
               <li class="nav__item with-dropdown">
-                <a href="index.html" class="dropdown-toggle nav__item-link">Home</a>
-                <i class="fa fa-angle-down" data-toggle="dropdown"></i>
-                <ul class="dropdown-menu">
-                  <li class="nav__item"><a href="index.html" class="nav__item-link">Home Moderm</a></li>
+                <a href="index.html" class="dropdown-t nav__item-link active">Home</a>
+                <!-- <i class="fa fa-angle-down" data-toggle="dropdown"></i> -->
+                <!-- <ul class="dropdown-menu"> -->
+                  <!-- <li class="nav__item"><a href="index.html" class="nav__item-link">Home Moderm</a></li> -->
                   <!-- /.nav-item -->
-                  <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Home classic</a></li>
+                  <!-- <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Home classic</a></li> -->
                   <!-- /.nav-item -->
-                  <li class="nav__item"><a href="home-architecture.html" class="nav__item-link">Home Architecture</a>
-                  </li>
+                  <!-- <li class="nav__item"><a href="home-architecture.html" class="nav__item-link">Home Architecture</a> -->
+                  <!-- </li> -->
                   <!-- /.nav-item -->
-                </ul><!-- /.dropdown-menu -->
+                <!-- </ul>/.dropdown-menu -->
               </li><!-- /.nav-item -->
               <li class="nav__item with-dropdown">
                 <a href="about-us.html" class="dropdown-toggle nav__item-link">Company</a>
@@ -54,11 +59,11 @@
                 <ul class="dropdown-menu">
                   <li class="nav__item"><a href="about-us.html" class="nav__item-link">About Us</a></li>
                   <!-- /.nav-item -->
-                  <li class="nav__item"><a href="core-values.html" class="nav__item-link">core values</a></li>
+                  <!-- <li class="nav__item"><a href="core-values.html" class="nav__item-link">core values</a></li> -->
                   <!-- /.nav-item -->
                   <li class="nav__item"><a href="leadership-team.html" class="nav__item-link">Leadership Team</a></li>
                   <!-- /.nav-item -->
-                  <li class="nav__item"><a href="pricing.html" class="nav__item-link">Pricing & Plans</a></li>
+                  <!-- <li class="nav__item"><a href="pricing.html" class="nav__item-link">Pricing & Plans</a></li> -->
                   <!-- /.nav-item -->
                   <li class="nav__item"><a href="faqs.html" class="nav__item-link">Help & FAQs</a></li>
                   <!-- /.nav-item -->
@@ -117,18 +122,18 @@
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
               <li class="nav__item">
-                <a href="contact-us.html" class="nav__item-link active">Contacts</a>
+                <a href="contact-us.html" class="nav__item-link">Contacts</a>
               </li><!-- /.nav-item -->
-              <li class="nav__item nav__item-btn d-none d-md-block">
+              <!-- <li class="nav__item nav__item-btn d-none d-md-block">
                 <a href="request-quote.html" class="btn btn__primary action__btn-request">
                   <span>Get A Quote</span><i class="icon-arrow-right"></i>
                 </a>
-              </li>
+              </li> -->
             </ul><!-- /.navbar-nav -->
           </div><!-- /.navbar-collapse -->
           <div class="contact__number d-flex align-items-center">
-            <i class="icon-phone"></i>
-            <a href="tel:5565454117">55 654 541 17</a>
+            <i class="icon-phone" style="color: rgb(255, 204, 41);"></i>
+            <a href="tel:+2349033324444">+234 903 332 4444</a>
           </div><!-- /.contact__numbr -->
         </div><!-- /.container -->
       </nav><!-- /.navabr -->
@@ -138,10 +143,9 @@
             Google Map
     =========================  -->
     <section class="google-map p-0">
-      <div id="map" style="height: 500px;"></div>
-      <script src="assets/js/google-map.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async
-      defer></script>
+      <div id="map" style="min-height: 450px; width: 100%;" class="shadow-lg">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.45588866528!2d3.5379669142968178!3d6.463784125649122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9231a8f06923%3A0x3974aaf4d490567b!2sZylus%20homes%20and%20property%20%7C%20Real%20Estate%20company%20in%20Sangotendo%2C%20Lekki!5e0!3m2!1sen!2sng!4v1606399316537!5m2!1sen!2sng" width="100%" height="460" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
     <!-- CLICK HERE (https://developers.google.com/maps/documentation/embed/get-api-key) TO  LERAN MORE ABOUT GOOGLE MAPS API KEY -->
     </section><!-- /.GoogleMap -->
 
@@ -158,26 +162,27 @@
                   <div class="contact-info-box">
                     <h4 class="contact__info-box-title">Our Location</h4>
                     <ul class="contact__info-list list-unstyled">
-                      <li>2307 Beverley Rd Brooklyn, New York 11226 United States.</li>
+                      <li><i class="fa fa-map-marker mr-1" style="color: #ffffff;"></i>1 Frank Ojadi Close, KM 47 Lekki Epe Expressway, Checkpoint/Ogidan Bus Stop, Sangotedo, Lagos.</li>
                     </ul><!-- /.contact__info-list -->
                   </div><!-- /.contact-info-box -->
                   <div class="contact-info-box">
                     <h4 class="contact__info-box-title">Quick Contact</h4>
                     <ul class="contact__info-list list-unstyled">
-                      <li>Email: <a href="mailto:Promina@7oroof.com">Promina@7oroof.com</a></li>
-                      <li>Support: <a href="mailto:Promina@7oroof.com">Promina@7oroof.com</a></li>
+                      <li>Email: <a href="mailto:info@zylushomes.com">info@zylushomes.com</a></li>
+                      <li>Support: <a href="mailto:info@zylushomes.com">info@zylushomes.com</a></li>
                     </ul><!-- /.contact__info-list -->
                   </div><!-- /.contact-info-box -->
                 </div><!-- /.contact__panel-info-top -->
                 <div class="contact__panel-info-bottom">
                   <strong class="contact__panel-info-title">We will get back to you within 24 hours, or call us
-                    everyday, 09:00 AM - 12:00 PM</strong>
+                    everyday, 09:00 AM - 5:00 PM</strong>
                   <div class="contact__number d-flex align-items-center">
-                    <i class="icon-phone"></i>
-                    <a href="tel:5565454117">55 654 541 17</a>
+                    <i class="icon-phone mr-2"></i>
+                      <a href="tel:+2349033324444">09033324444</a>
                   </div>
                 </div><!-- /.contact__panel-info-bottom -->
               </div><!-- /.contact__panel-info -->
+              
               <form method="post" action="assets/php/contact.php" id="contactForm" class="contact__panel-form">
                 <div class="row">
                   <div class="col-sm-12">
@@ -235,43 +240,46 @@
     ============================ -->
     <section class="contact-info pt-0 pb-70">
       <div class="container">
-        <div class="row">
+        <div class="row mx-auto d-flex justify-content-center align-content-center">
           <!-- Contact panel #1 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="col-sm-12 col-md-5 col-lg-5 py-sm-2 px-sm-4">
             <div class="contact-info-box">
-              <h4 class="contact__info-box-title">London Office</h4>
+              <h4 class="contact__info-box-title">Head Office</h4>
               <ul class="contact__info-list list-unstyled">
-                <li>Email: <a href="mailto:Promina@7oroof.com">Promina@7oroof.com</a></li>
-                <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
-                <li>Phone: <a href="tel:5565454117">55 654 541 17</a></li>
-                <li>Hours: Mon-Fri: 8am – 7pm</li>
+                <li>Email: <a href="mailto:info@zylushomes.com">info@zylushomes.com</a></li>
+                <li>Address: 1 Frank Ojadi Close, KM 47 Lekki Epe Expressway, 
+                  Checkpoint/Ogidan Bus Stop, Sangotedo, Lagos.</li>
+                <li>Phone: <a href="tel: 09033324444">09033324444</a></li>
+                <li>Hours: Mon-Fri: 9am – 5pm</li>
               </ul><!-- /.contact__info-list -->
             </div><!-- /.contact-info-box -->
-          </div><!-- /.col-lg-4 -->
+          </div><!-- /.col-lg-5 -->
+
           <!-- Contact panel #2 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="col-sm-12 col-md-5 col-lg-5 py-sm-2 px-sm-4">
             <div class="contact-info-box">
-              <h4 class="contact__info-box-title">Berlin Office</h4>
+              <h4 class="contact__info-box-title">Branch Office</h4>
               <ul class="contact__info-list list-unstyled">
-                <li>Email: <a href="mailto:Promina@7oroof.com">Promina@7oroof.com</a></li>
-                <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
-                <li>Phone: <a href="tel:5565454117">55 654 541 17</a></li>
-                <li>Hours: Mon-Fri: 8am – 7pm</li>
+                <li>Email: <a href="mailto:info@zylushomes.com">info@zylushomes.com</a></li>
+                <li>Address: 65 Allen Avenue, First Bank Bus stop, Ikeja, Lagos.</li>
+                <li>Phone: <a href="tel: 09033324444">09033324444</a></li>
+                <li>Hours: Mon-Fri: 9am – 5pm</li>
               </ul><!-- /.contact__info-list -->
             </div><!-- /.contact-info-box -->
-          </div><!-- /.col-lg-4 -->
+          </div><!-- /.col-lg-5 -->
+
           <!-- Contact panel #3 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
+          <!-- <div class="col-sm-12 col-md-4 col-lg-4">
             <div class="contact-info-box">
               <h4 class="contact__info-box-title">Manchester Office</h4>
               <ul class="contact__info-list list-unstyled">
                 <li>Email: <a href="mailto:Promina@7oroof.com">Promina@7oroof.com</a></li>
                 <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
-                <li>Phone: <a href="tel:5565454117">55 654 541 17</a></li>
+                <li>Phone: <a href="tel: 09033324444">09033324444</a></li>
                 <li>Hours: Mon-Fri: 8am – 7pm</li>
-              </ul><!-- /.contact__info-list -->
-            </div><!-- /.contact-info-box -->
-          </div><!-- /.col-lg-4 -->
+              </ul>/.contact__info-list -->
+            <!-- </div>/.contact-info-box -->
+          <!-- </div>/.col-lg-4 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.Contact Info -->
@@ -283,52 +291,55 @@
       <div class="footer-top">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-4 footer__widget footer__widget-about">
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-4 footer__widget footer__widget-about pr-20">
               <div class="footer__widget-content">
-                <img src="assets/images/logo/logo-footer.png" alt="logo" class="mb-30">
-                <p class="mb-20">A leading developer of A-grade commercial, industrial and residential projects in USA.
-                  Since its foundation the company has doubled its turnover year on year with its staff.</p>
+                <img src="assets/images/logo/ZY-white.png" alt="logo" class="mb-30">
+                <p class="mb-20">Zylus Homes is a leading real estate and investment place 
+                  dedicated to bringing real estate into the future by helping over 10,000+ daily visitors find, 
+                  research, and multiply profits through our land banking investment program.</p>
                 <ul class="social__icons list-unstyled">
-                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://web.facebook.com/zylushomesnproperty/" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://www.instagram.com/zylushomes/" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://www.twitter.com/zylushomes" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.youtube.com/zylushomestv" class="youtube"><i class="fa fa-youtube-play"></i></a></li>
                 </ul><!-- /.social-icons -->
               </div>
             </div><!-- /.col-xl-4 -->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer__widget footer__widget-nav">
-              <h6 class="footer__widget-title">Services</h6>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-2 footer__widget footer__widget-nav pr-2">
+              <h6 class="footer__widget-title">Our Estates</h6>
               <div class="footer__widget-content">
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="#">Construction Manage</a></li>
-                    <li><a href="#">Construction Consultants</a></li>
-                    <li><a href="#">Architecture & Building</a></li>
-                    <li><a href="#">Home Renovations</a></li>
-                    <li><a href="#">Tiling & Painiting</a></li>
-                    <li><a href="#">Interior Design</a></li>
+                    <li><a href="richview-estate.html">Richview Estate</a></li>
+                    <li><a href="chrystland-estate.html">Chrystland Estate</a></li>
+                    <li><a href="chrystland-estate-phaseII.html">Chrystland Estate Phase II</a></li>
+                    <li><a href="prosperity-garden.html">Prosperity Garden</a></li>
+                    <li><a href="prosperity-garden-phaseII.html">Prosperity Garden Phase II</a></li>
+                    <li><a href="signum.html">Signum</a></li>
+                    <li><a href="lekki-prime-estate.html">Lekki Prime Estate</a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget-content -->
             </div><!-- /.col-xl-2 -->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer__widget footer__widget-nav">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer__widget footer__widget-nav pr-1">
               <h6 class="footer__widget-title">Company</h6>
               <div class="footer__widget-content">
                 <nav>
                   <ul class="list-unstyled">
                     <li><a href="about-us.html">About Us</a></li>
                     <li><a href="leadership-team.html">Meet Our Team</a></li>
+                    <li><a href="services.html">Services</a></li>
                     <li><a href="blog.html">News & Media</a></li>
-                    <li><a href="projects-grid.html">Case Studies</a></li>
                     <li><a href="contact-us.html">Contacts</a></li>
                     <li><a href="careers.html">Careers</a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget-content -->
             </div><!-- /.col-xl-2 -->
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 footer__widget footer__widget-newsletter">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 footer__widget footer__widget-newsletter pl-20">
               <h6 class="footer__widget-title">Newsletter</h6>
               <div class="footer__widget-content">
-                <p>Sign up for industry alerts, our latest news, thoughts, and insights from Promina.</p>
+                <p>Sign up for alerts, our latest news, thoughts, and insights from Zylus Homes.</p>
                 <form class="widget__newsletter-form">
                   <div class="form-group mb-0">
                     <input type="text" class="form-control" placeholder="Your Email Address">
@@ -338,7 +349,7 @@
                   </div>
                 </form>
               </div><!-- /.footer-widget-content -->
-              <p class="text-right footer__more-info mt-20 mb-0">Have a question? <a href="#">Click here</a></p>
+              <p class="text-right footer__more-info mt-20 mb-0">Have a question? <a href="contact-us.html">Click here</a></p>
             </div><!-- /.col-xl-4 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
@@ -354,20 +365,31 @@
                   <li><a href="#">Sitemap</a></li>
                 </ul>
               </nav>
-              <p class="mb-0 color-white"> &copy; 2020 Promina. With Love by
-                <a href="http://themeforest.net/user/7oroof">7oroof.com</a>
-              </p>
+              <!-- <p class="mb-0 color-white"> &copy; 2020. With Love by
+                <a href="#">oiws.com</a>
+              </p> -->
             </div><!-- /.col-lg-12 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
       </div><!-- /.Footer-bottom -->
     </footer><!-- /.Footer -->
+    
     <button id="scrollTopBtn"><i class="fa fa-long-arrow-up"></i></button>
+
+    <div id="WAButton">
+      <a href="https://wa.me/+2348052858866?text=Hi%20Eric,%20I%20am%20sending%20you%20this%20message%20because%20I%20am%20interested%20in%20your%20business!" style="text-decoration: none;" target="_blank">
+        <!-- <img src="https://i.ibb.co/N9P0K9H/239px-Whats-App-svg.png" width="50" height="50"/> -->
+     </a>
+    </div>
 
   </div><!-- /.wrapper -->
 
+  <!--Jquery-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
   <script src="assets/js/jquery-3.5.1.min.js"></script>
   <script src="assets/js/plugins.js"></script>
+  <!--Floating WhatsApp javascript-->
+  <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 
