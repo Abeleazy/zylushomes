@@ -83,7 +83,8 @@ a {
 }
 
 a:hover {
-  color: #732500;
+  /* color: #732500; */
+  color: var(--theme-yellow);
   text-decoration: none;
 }
 
@@ -8347,7 +8348,7 @@ textarea.form-control {
 /* ABOUT
 ------------------------ */
 .modal-footer .modal-service-btn {
-  background-color: rgb(255, 204, 41);
+  background-color: var(--theme-yellow);
   color: #ffffff;
 }
 
@@ -8358,6 +8359,35 @@ textarea.form-control {
 .about .feature-item .feature__content .feature__title, 
 .about.features-layout1 .why-we-stand-out .heading__subtitle {
   width: fit-content;
+}
+
+/* CONTACT
+------------------------ */
+.contact-info .heading.text-center p a {
+  text-decoration: underline;
+  color: #9b9b9b;
+  transition: 0.3s ease;
+}
+
+.contact-info .heading.text-center p a:hover {
+  text-decoration: none;
+  color: var(--theme-yellow);
+}
+
+.contact-info .contact-info-box .contact__info-list {
+  line-height: 24px;
+}
+
+.contact-info .contact-info-box .contact__info-list li a {
+  transition: 0.3s ease;
+}
+
+.contact-info .contact-info-box .contact__info-list li a:hover {
+  text-decoration: underline;
+}
+
+.contact-info .contact-info-box .contact__info-list .bold-span {
+  font-weight: 600;
 }
 
 
