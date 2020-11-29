@@ -52,6 +52,7 @@
 ---------------------------*/
 :root {
   --theme-yellow: rgb(255, 204, 41);
+  --theme-yellow-dark: rgb(247, 196, 31);
   --theme-black: rgb(0, 0, 0);
   --theme-dark: rgb(34,34,34);
   --theme-d-blue: rgb(39, 40, 56);
@@ -6775,7 +6776,8 @@ textarea.form-control {
 }
 
 .contact-panel .contact__panel-info-top {
-  background-color: #333333;
+  /* background-color: #333333; */
+  background-color: var(--theme-yellow);
   border-radius: 4px 4px 0 0;
   padding: 50px 50px 32px;
 }
@@ -6785,7 +6787,9 @@ textarea.form-control {
 }
 
 .contact-panel .contact__panel-info-bottom {
-  background-color: #222222;
+  /* background-color: #222222; */
+  /* background-color: var(--theme-yellow-dark); */
+  background-color: var(--theme-yellow);
   border-radius: 0 0 4px 4px;
   padding: 50px 50px 42px;
 }
