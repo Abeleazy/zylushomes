@@ -8247,6 +8247,8 @@ textarea.form-control {
   }
 }
 
+
+
 /* INDEX 
 ------------------------ */
 .item {
@@ -8322,13 +8324,16 @@ textarea.form-control {
   color: var(--theme-yellow);
 }
 
-.testimonial-img {
+/* .testimonial-img {
 }
-
 .testimonial-img img {
   width: 100px;
   height: 100px;
   border-radius: 100%;
+} */
+
+.info__slider.custom .info__slider-item p {
+  color: var(--theme-yellow);
 }
 
 .footer .social__icons li a.facebook:hover  {
@@ -8343,7 +8348,6 @@ textarea.form-control {
 .footer .social__icons li a.youtube:hover {
   color: rgb(255, 0, 0);
 }
-
 
 /* ABOUT
 ------------------------ */
@@ -8397,6 +8401,13 @@ textarea.form-control {
   .about-layout2 .imgs-block {
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+
+@media (min-width: 600px) {
+  .info__slider.custom {
+    width: 100%;
+    max-width: 400px;
   }
 }
 
